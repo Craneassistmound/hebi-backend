@@ -15,7 +15,7 @@ public class GeminiApi {
     public static String GeminiAi(String massage) {
         String textContent = null;
         try {
-            String API_KEY = "AIzaSyCXtzHx1RYBOgCXsEhljrWO57lN0xntcM8";
+            String API_KEY = "key";
             // 设置请求URL
             URL url = new URL("https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=" + API_KEY);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
